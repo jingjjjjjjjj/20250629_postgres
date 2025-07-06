@@ -25,7 +25,52 @@ DROP TABLE IF EXISTS student;
 ```
 
 ## 新增一筆資料
-```
+
+```sql
 INSERT INTO student (name, major)
 VALUES ('陳怡靚', '英文'),('小明', '數學'),('小美', '國文');
+```
+
+
+## 取得資料
+
+```sql
+SELECT student id, name, major FROM student;
+```
+
+```sql
+SELECT * FROM student;
+```
+
+```sql
+SELECT student_id, name, major
+FROM  student;
+
+SELECT  name, major
+FROM  student;
+
+SELECT  *
+FROM  student
+WHERE name='信忠';
+
+SELECT  *
+FROM  student
+ORDER BY student_id DESC;
+
+SELECT  *
+FROM  student
+ORDER BY student_id DESC
+LIMIT 3;
+```
+
+
+
+
+
+```python
+
+```
+
+```bash
+
 ```
